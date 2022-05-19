@@ -32,11 +32,11 @@ spec:
       - name: spec.basicDeploymentConfiguration.domain
         value: z14.cloudpaksecurity.com
       - name: spec.basicDeploymentConfiguration.storageClass
-        value: ibmc-vpc-block-10iops-tier
+        value: managed-nfs-storage
       - name: spec.extendedDeploymentConfiguration.airgapInstall
         value: "false"
       - name: spec.extendedDeploymentConfiguration.backupStorageClass
-        value: ibmc-vpc-block-10iops-tier
+        value: managed-nfs-storage
       - name: spec.extendedDeploymentConfiguration.backupStorageSize
         value: ''
       - name: spec.extendedDeploymentConfiguration.imagePullPolicy
